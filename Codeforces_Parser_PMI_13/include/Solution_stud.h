@@ -16,40 +16,40 @@ private:
     string Name_stud_dist_levenstein;
     string Name_dist_levenstein_package;
 public:
-    string get_Name_contest {
+    string get_Name_contest() {
         return Name_contest;
     }
-    string get_Name_problem {
+    string get_Name_problem() {
         return Name_problem;
     }
-    string get_Name_package {
+    string get_Name_package() {
         return Name_package;
     }
-    string get_Name_compiler {
+    string get_Name_compiler() {
         return Name_compiler;
     }
-    string get_Name_stud {
+    string get_Name_stud() {
         return Name_stud;
     }
-    string get_Solution {
+    string get_Solution() {
         return Solution;
     }
-    string get_Date {
+    string get_Date() {
         return Date;
     }
-    int get_Time {
+    int get_Time() {
         return Time;
     }
-    string get_verdict {
+    string get_verdict() {
         return verdict;
     }
-    int get_dist_levenstein {
+    int get_dist_levenstein() {
         return dist_levenstein;
     }
-    string get_Name_stud_dist_levenstein {
+    string get_Name_stud_dist_levenstein() {
         return Name_stud_dist_levenstein;
     }
-    string get_Name_dist_levenstein_package {
+    string get_Name_dist_levenstein_package() {
         return Name_dist_levenstein_package;
     }
 
@@ -92,7 +92,7 @@ public:
     }
 
     Solution_stud() {
-        Name_contest = "None;
+        Name_contest = "None";
         Name_problem = "None";
         Name_package = "None";
         Name_compiler = "None";
@@ -113,9 +113,7 @@ public:
         Name_stud.clear();
         Solution.clear();
         Date.clear();
-        Time.clear();
         verdict.clear();
-        dist_levenstein.clear();
         Name_stud_dist_levenstein.clear();
         Name_dist_levenstein_package.clear();
     }

@@ -1,6 +1,24 @@
 # depslib dependency file v1.0
-1514140574 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\main.cpp
+1679480469 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\main.cpp
 	<iostream>
+	"Head.h"
+	"include/Solution_stud.h"
 
 1679478455 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\src\solution_stud.cpp
+
+1679478445 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\head.h
+	<iostream>
+	<cstdio>
+	<fstream>
+	<string>
+	<vector>
+	<cmath>
+	<algorithm>
+	<set>
+	<map>
+
+1679480433 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\include\solution_stud.h
+	"../Head.h"
+
+1679480534 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\src\levenstein.cpp
 

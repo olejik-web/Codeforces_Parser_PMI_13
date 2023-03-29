@@ -11,10 +11,10 @@
 
 using namespace std;
 
-string folder_base_put = "C://Users/User..";
+string Folder_base_put = "C://Users/User..";
 string File_contest = "contest.txt";
 string File_compiler = "compiler.txt";
-string file_tasks = "tasks.txt";
+string File_tasks = "tasks.txt";
 string File_student = "student.txt";
 string Folder_base_stud = "stud_work/";
 

@@ -78,6 +78,6 @@ void scanf_info_solution(string& Filename, Solution_stud& sol) {
     while (getline(in, str)) {
         solution += str;
     }
-    sol.setSolution(solution);
+    sol.set_Solution(solution);
     in.close();
 }

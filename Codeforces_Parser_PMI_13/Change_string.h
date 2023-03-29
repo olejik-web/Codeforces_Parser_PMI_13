@@ -3,7 +3,7 @@
 
 vector<int>Mark_char(2 * const_length_code);
 
-void Clear_Mark_Char {
+void Clear_Mark_Char() {
     for (int i=0; i<Mark_char.size(); i++) {
         Mark_char[i] = 0;
     }

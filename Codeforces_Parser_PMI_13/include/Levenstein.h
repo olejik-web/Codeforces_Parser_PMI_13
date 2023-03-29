@@ -5,8 +5,8 @@ vector< vector<int> >Matrix_levenstein(const_length_code,
                                        vector<int>(const_length_code));
 
 void Clear_matrix(int mi, int mj) {
-    for (int i=0; i<=m[i]; i++) {
-        for (int j=0; j<=m[j]; j++) {
+    for (int i=0; i<=mi; i++) {
+        for (int j=0; j<=mj; j++) {
             Matrix_levenstein[i][j] = 0;
         }
     }

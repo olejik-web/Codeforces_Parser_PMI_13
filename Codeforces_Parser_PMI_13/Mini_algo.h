@@ -9,11 +9,11 @@ void Result_all_stud(string Name_student,
     info_one_stud.first = Name_student;
     int count_accept = 0;
     for (int i=0; i < sol_stud.size(); i++) {
-        if (sol_stud[i].get_verdit() == "OK") {
+        if (sol_stud[i].get_verdict() == "OK") {
             count_accept++;
         }
         if (sol_stud[i].get_verdict() == "Coincidence" &&
-            sol_stud[i].get_dit_levenstein() > const_levenstein) {
+            sol_stud[i].get_dist_levenstein() > const_levenstein) {
             count_accept++;
         }
     }
@@ -24,7 +24,7 @@ void Result_all_stud(string Name_student,
 string Generate_path_solution(string& Name_student,
                               string& Name_contest,
                               string& Name_task) {
-    string path = folder_base_put + Folder_base_stud;
+    string path = Folder_base_put + Folder_base_stud;
     path += Name_student + '/';
     path += Name_contest + '/';
     path += Name_task + '/';
@@ -33,7 +33,7 @@ string Generate_path_solution(string& Name_student,
 
 string Generate_path_coach(string& Name_contest,
                            string& Name_task) {
-    string path = folder_base_put + Folder_base_stud;
+    string path = Folder_base_put + Folder_base_stud;
     path += Nick_name_coach + '/';
     path += Name_contest + '/';
     path += Name_task + '/';
@@ -70,7 +70,7 @@ int Time_solution(string& Date) {
 
 void check_time_solution(vector<Solution_stud>& sol_stud) {
     for (int i=0; i<sol_stud.size(); i++) {
-        if (sol_stud[i].get_verdict != "OK") {
+        if (sol_stud[i].get_verdict() != "OK") {
             int delta = 1000;
             for (int j=0; j<sol_stud.size(); j++) {
                 if (i != j) {

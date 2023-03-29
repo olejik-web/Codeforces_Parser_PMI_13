@@ -1,12 +1,18 @@
 # depslib dependency file v1.0
-1680072822 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\main.cpp
+1680083621 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\main.cpp
 	<iostream>
 	"Head.h"
-	"include/Solution_stud.h"
+	"Solution_stud.h"
+	"Mini_algo.h"
+	"Scanf_file.h"
+	"Solution_stud.h"
+	"Write_file.h"
+	"Change_string.h"
+	"Levenstein.h"
 
 1679478455 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\src\solution_stud.cpp
 
-1679478445 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\head.h
+1680083289 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\head.h
 	<iostream>
 	<cstdio>
 	<fstream>
@@ -17,8 +23,26 @@
 	<set>
 	<map>
 
-1680071207 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\include\solution_stud.h
+1680083327 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\include\solution_stud.h
 	"../Head.h"
 
 1680071208 source:c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\src\levenstein.cpp
+
+1680083275 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\mini_algo.h
+	"Head.h"
+	"Solution_stud.h"
+
+1680083410 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\write_file.h
+	"Head.h"
+	"Solution_stud.h"
+
+1680083317 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\scanf_file.h
+	"Head.h"
+	"Solution_stud.h"
+
+1680083504 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\change_string.h
+	"Head.h"
+
+1680083646 c:\users\user\desktop\pmi-13\codeforces_parser_pmi_13\codeforces_parser_pmi_13\include\levenstein.h
+	"../Head.h"
 
